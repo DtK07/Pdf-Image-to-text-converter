@@ -1,9 +1,5 @@
 # Pdf-Image-to-text-converter
 
-Pdf/Image coverter is a python script intended to convert the text in the pdf to excel format so that data can be structured and used for further analysis.
+The PDF/Image Converter is a Python script designed to extract text from PDF files and convert it into structured data in Excel format for further analysis. This script utilizes various libraries such as PyPDF2, pathlib, openpyxl, fitz, pytesseract, and PIL.Image to accomplish its tasks.
 
-Libraries used:
-PyPDF2, pathlib, openpyxl, fitz, pytesseract, PIL.Image
-
-Process:
-Once the code is run, it will look for the pdf files in a mentioned directory and create a list of files. Then creates a pdf object and uses extracttext() method to pull out the data and then create an excel workbook and update the extracted data.
+The process involves the script searching for PDF files in a designated directory, creating a list of these files, and then using the extracttext() method to extract the text data from each PDF file. The extracted data is then added to an Excel workbook to produce a structured and organized result.
